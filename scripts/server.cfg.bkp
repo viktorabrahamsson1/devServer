@@ -6,10 +6,10 @@
 
 ## You SHOULD edit the following:
 sv_hostname "viktors dev server built with CFX Default FiveM!"
-sets sv_projectName "[CFX Default FiveM] viktors dev server"
+sets sv_projectName "Viktors dev server"
 sets sv_projectDesc "Recipe for the base resources required to run a minimal FiveM server."
 sets tags "default, deployer"
-sets locale "root-AQ"
+sets locale "en-US"
 
 ## You CAN edit the following:
 sv_enforceGameBuild 3095 #mp2023_02 - The Chop Shop
@@ -27,6 +27,15 @@ ensure spawnmanager
 ensure sessionmanager
 ensure basic-gamemode
 ensure hardcap
+
+## MY SCRIPTS
+ensure spawnCar
+ensure deleteCar 
+
+## CARS
+ensure amggt63
+ensure rs6
+ensure rxf450sm
 
 ## Add system admins
 add_ace group.admin command allow # allow all commands

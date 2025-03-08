@@ -1,0 +1,32 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-07 20:40:10
+================================================================
+[20:40:54][Viktor0524] created admins file
+[20:44:59][Viktor0524] Changing global settings via setup stepper and started Deployer.
+[20:45:03][Viktor0524] Setting recipe.
+[20:45:48][Viktor0524] Running recipe.
+[20:48:31][Viktor0524] Completed and committed server deploy.
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-07 21:00:10
+================================================================
+[21:00:17][Viktor0524] logged in from 127.0.0.1 via password
+[21:01:24][Viktor0524] logged in via in-game ui
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-07 21:05:01
+================================================================
+[21:05:05][Viktor0524] logged in from 127.0.0.1 via password
+[21:05:26][Viktor0524] Changing fxRunner settings.
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-07 21:06:48
+================================================================
+[21:06:52][Viktor0524] logged in from 127.0.0.1 via password
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-07 23:26:41
+================================================================
+[23:28:33][Viktor0524] logged in via in-game ui
+[23:29:06][Viktor0524] logged in from 127.0.0.1 via password

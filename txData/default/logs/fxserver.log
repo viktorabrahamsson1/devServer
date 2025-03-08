@@ -1,9 +1,130 @@
 
 ================================================================
-======== FXServer Starting - 2025-03-07 20:48:31                
+======== Log Rotated - 2025-03-08 10:33:49                      
+================================================================
+
+================================================================
+======== FXServer Starting - 2025-03-08 10:34:45                
 ================================================================
 [           resources] Scanning resources.
-[           resources] Found 25 resources.
+[   resources:.github] Warning: .github does not have a resource manifest (fxmanifest.lua)
+[       resources:lib] Warning: lib does not have a resource manifest (fxmanifest.lua)
+[    resources:logger] Warning: logger does not have a resource manifest (fxmanifest.lua)
+[   resources:patches] Warning: patches does not have a resource manifest (fxmanifest.lua)
+[       resources:src] Warning: src does not have a resource manifest (fxmanifest.lua)
+[       resources:web] Warning: web does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 32 resources.
+[           resources] 6 warnings were encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] [0mCreating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] [97mCreating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource core.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[38;5;161m[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> txaReportResources
+[38;5;84m[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[38;5;134m[      script:hardcap] Connecting: Dator
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] [97mConnecting: Dator
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+[           resources] Scanning resources.
+[   resources:.github] Warning: .github does not have a resource manifest (fxmanifest.lua)
+[       resources:lib] Warning: lib does not have a resource manifest (fxmanifest.lua)
+[    resources:logger] Warning: logger does not have a resource manifest (fxmanifest.lua)
+[   resources:patches] Warning: patches does not have a resource manifest (fxmanifest.lua)
+[       resources:src] Warning: src does not have a resource manifest (fxmanifest.lua)
+[       resources:web] Warning: web does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 6 new resources, and refreshed 0/26 resources.
+[           resources] 6 warnings were encountered.
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 287 milliseconds
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+
+================================================================
+======== FXServer Starting - 2025-03-08 10:46:39                
+================================================================
+[           resources] Scanning resources.
+[   resources:.github] Warning: .github does not have a resource manifest (fxmanifest.lua)
+[       resources:lib] Warning: lib does not have a resource manifest (fxmanifest.lua)
+[    resources:logger] Warning: logger does not have a resource manifest (fxmanifest.lua)
+[   resources:patches] Warning: patches does not have a resource manifest (fxmanifest.lua)
+[       resources:src] Warning: src does not have a resource manifest (fxmanifest.lua)
+[       resources:web] Warning: web does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 32 resources.
+[           resources] 6 warnings were encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] [0mStarted resource sessionmanager
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[38;5;83m[           resources] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] [0mStarted resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource core.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[      script:hardcap] Connecting: Dator
+
+================================================================
+======== FXServer Starting - 2025-03-08 10:56:57                
+================================================================
+[           resources] Scanning resources.
+[   resources:.github] Warning: .github does not have a resource manifest (fxmanifest.lua)
+[       resources:lib] Warning: lib does not have a resource manifest (fxmanifest.lua)
+[    resources:logger] Warning: logger does not have a resource manifest (fxmanifest.lua)
+[   resources:patches] Warning: patches does not have a resource manifest (fxmanifest.lua)
+[38;5;78m[       resources:src] Warning: src does not have a resource manifest (fxmanifest.lua)
+[       resources:web] Warning: web does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 32 resources.
+[           resources] 6 warnings were encountered.
 [          svadhesive] Authenticating server license key...
 [          svadhesive] Server license key authentication succeeded. Welcome!
 [    c-scripting-core] Creating script environments for sessionmanager
@@ -12,7 +133,53 @@
 [      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
 [           resources] Started resource monitor
 [    c-scripting-core] Creating script environments for mapmanager
-[           resources] [97mStarted resource mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] [97mStarted gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource core.
+[ citizen-server-impl] Couldn't find resource database.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.[97m
+
+================================================================
+======== FXServer Starting - 2025-03-08 10:58:52                
+================================================================
+[           resources] Scanning resources.
+[   resources:.github] Warning: .github does not have a resource manifest (fxmanifest.lua)
+[       resources:lib] Warning: lib does not have a resource manifest (fxmanifest.lua)
+[    resources:logger] Warning: logger does not have a resource manifest (fxmanifest.lua)
+[   resources:patches] Warning: patches does not have a resource manifest (fxmanifest.lua)
+[       resources:src] Warning: src does not have a resource manifest (fxmanifest.lua)
+[       resources:web] Warning: web does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 32 resources.
+[           resources] 6 warnings were encountered.
+[          svadhesive] [0mAuthenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
 [    c-scripting-core] Creating script environments for chat
 [           resources] Started resource chat
 [           resources] Started resource spawnmanager
@@ -20,6 +187,12 @@
 [           resources] Started resource basic-gamemode
 [    c-scripting-core] Creating script environments for hardcap
 [           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource core.
+[ citizen-server-impl] Couldn't find resource database.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
 [   script:mapmanager] Started map fivem-map-skater
 [           resources] Started resource fivem-map-skater
 [ citizen-server-impl]         fff                          
@@ -27,14 +200,27 @@
 [ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
 [ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
 [ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[38;5;73m[ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ citizen-server-impl]                                      
+[ citizen-server-impl] [32mAuthenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> ensure oxmysql
+[ citizen-server-impl] Couldn't find resource oxmysql.
+> start oxmysql
+[ citizen-server-impl] [93mCouldn't find resource oxmysql.
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Viktor0524＂,＂message＂:＂Server restarting (requested by Viktor0524).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
 
 ================================================================
-======== FXServer Starting - 2025-03-07 21:00:20                
+======== FXServer Starting - 2025-03-08 11:00:50                
 ================================================================
 [           resources] Scanning resources.
-[           resources] Found 25 resources.
+[   resources:.github] Warning: .github does not have a resource manifest (fxmanifest.lua)
+[       resources:lib] Warning: lib does not have a resource manifest (fxmanifest.lua)
+[    resources:logger] Warning: logger does not have a resource manifest (fxmanifest.lua)
+[   resources:patches] Warning: patches does not have a resource manifest (fxmanifest.lua)
+[       resources:src] Warning: src does not have a resource manifest (fxmanifest.lua)
+[       resources:web] Warning: web does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 32 resources.
+[           resources] 6 warnings were encountered.
 [          svadhesive] Authenticating server license key...
 [          svadhesive] Server license key authentication succeeded. Welcome!
 [    c-scripting-core] Creating script environments for sessionmanager
@@ -51,6 +237,12 @@
 [           resources] Started resource basic-gamemode
 [    c-scripting-core] Creating script environments for hardcap
 [           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource core.
+[ citizen-server-impl] Couldn't find resource category [database].
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
 [   script:mapmanager] Started map fivem-map-skater
 [           resources] Started resource fivem-map-skater
 [ citizen-server-impl]         fff                          
@@ -60,15 +252,57 @@
 [ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
 [ citizen-server-impl]                                      
 [ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
-> txaReportResources
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-[      script:hardcap] Connecting: Dator[0m
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Viktor0524＂,＂message＂:＂Server restarting (requested by Viktor0524).＂}"
+[      script:monitor] [txAdmin][97m Server shutdown imminent. Kicking all players.
 
 ================================================================
-======== FXServer Starting - 2025-03-07 21:06:59                
+======== FXServer Starting - 2025-03-08 11:01:35                
 ================================================================
 [           resources] Scanning resources.
-[           resources] Found 25 resources.
+[   resources:oxmysql] Warning: oxmysql does not have a resource manifest (fxmanifest.lua)
+[38;5;83m[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] [97mCreating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource core.
+[ citizen-server-impl] Couldn't find resource category [database].
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Viktor0524＂,＂message＂:＂Server restarting (requested by Viktor0524).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 2025-03-08 11:08:28                
+================================================================
+[           resources] Scanning resources.
+[   resources:oxmysql] Warning: oxmysql does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
 [          svadhesive] Authenticating server license key...
 [          svadhesive] Server license key authentication succeeded. Welcome!
 [    c-scripting-core] Creating script environments for sessionmanager
@@ -85,6 +319,91 @@
 [           resources] Started resource basic-gamemode
 [    c-scripting-core] Creating script environments for hardcap
 [           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource category [database].
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl] [0m        fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+
+================================================================
+======== FXServer Starting - 2025-03-08 11:09:19                
+================================================================
+[           resources] Scanning resources.
+[   resources:oxmysql] Warning: oxmysql does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 27 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] [0mCreating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource category [database].
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Viktor0524＂,＂message＂:＂Server restarting (requested by Viktor0524).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 2025-03-08 11:16:42                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 27 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] [0mCreating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-resources-core] Resource 'oxmysql' can't run:
+[    c-resources-core]   1. server needs to be 12913 or higher
+[ citizen-server-impl] Couldn't start resource oxmysql.
+[    c-resources-core] Resource 'oxmysql' can't run:
+[    c-resources-core]   1. server needs to be 12913 or higher
+[ citizen-server-impl] Couldn't start resource oxmysql.
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
 [   script:mapmanager] Started map fivem-map-skater
 [           resources] Started resource fivem-map-skater
 [ citizen-server-impl]         fff                          
@@ -93,6 +412,311 @@
 [ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
 [ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
 [ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: [0mhttps://viktor0524-bzbqe8.users.cfx.re/
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
 > txaReportResources
 [      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "oxmysql"
+[    c-resources-core] Resource 'oxmysql' can't run:
+[    c-resources-core]   1. server needs to be 12913 or higher
+[ citizen-server-impl] Couldn't start resource oxmysql.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+
+================================================================
+======== FXServer Starting - 2025-03-08 14:47:21                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 27 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] Started resource first
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[      script:hardcap] Connecting: Dator
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Viktor0524＂,＂message＂:＂Server restarting (requested by Viktor0524).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 2025-03-08 14:53:00                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 27 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] [97mCreating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for first
+[        script:first] test
+[           resources] [0mStarted resource first
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] [91mAsset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[      script:hardcap] Connecting: Dator
+[         script:chat] [0mDator: ensure first
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "first"
+[           resources] Stopping resource first
+[    c-scripting-core] [0mCreating script environments for first
+[        script:first] test
+[           resources] Started resource first
+> txaReportResources
+[      script:monitor] [txAdmin][97m Sending resources list to txAdmin.
+> ensure "amggt63"
+[           resources] Stopping resource amggt63
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[38;5;172m[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] server thread hitch warning: timer interval of 189 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 173 milliseconds
+> ensure "amggt63"
+[           resources] Stopping resource amggt63
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.[0m
+[           resources] Started resource amggt63 (4 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] Connecting: Dator
+> ensure "amggt63"
+[           resources] Stopping resource amggt63
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "amggt63"
+[           resources] Stopping resource amggt63
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] [0mAsset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 206 milliseconds
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/27 resources.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "rs6"
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "rs6"
+[           resources] Stopping resource rs6
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin][97m Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "rs6"
+[           resources] Stopping resource rs6
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "amggt63"
+[           resources] Stopping resource amggt63
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+> ensure "rs6"
+[           resources] Stopping resource rs6
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "rs6"
+[           resources] Stopping resource rs6
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+> ensure "amggt63"
+[           resources] Stopping resource amggt63
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+> txaReportResources
+[38;5;84m[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "amggt63"
+[           resources] Stopping resource amggt63
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+> ensure "rs6"
+[           resources] Stopping resource rs6
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "rs6"
+[           resources] Stopping resource rs6
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+> txaReportResources
+[38;5;84m[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "sxf450sm"
+[  resources:sxf450sm] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (2 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "rs6"
+[           resources] Stopping resource rs6
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[38;5;52m[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+
+================================================================
+======== FXServer Starting - 2025-03-08 17:17:43                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 30 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+[  resources:sxf450sm] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:9)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (2 warnings)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl] [91m        fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/30 resources.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] Connecting: Dator
+[         script:chat] Dator: 7dv
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] server thread hitch warning: timer interval of 197 milliseconds
+[ citizen-server-impl] [0mserver thread hitch warning: timer interval of 173 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[    script:deleteCar] The car was deleted. SERVER LOG
