@@ -1,92 +1,70 @@
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 10:33:49
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 13:03:33
 ================================================================
 
 ================================================================
-======== Log Rotated - 2025-03-08 10:33:49                      
+======== Log Rotated - 2025-03-09 13:03:33                      
 ================================================================
+[13:03:36][Viktor0524] logged in from 127.0.0.1 via password
+[13:04:11][Viktor0524] executed "ensure spawnMessage"
+[13:05:19][Viktor0524] logged in via in-game ui
+[13:06:50][Viktor0524] executed "ensure spawnMessage"
+[13:08:24][Viktor0524] executed "stop "ballCoords""
+[13:10:49][Viktor0524] executed "ensure "sxf450sm""
+[13:22:44][Viktor0524] executed "RESTART SERVER"
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 10:34:34
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 14:58:19
 ================================================================
-[10:35:45][Viktor0524] logged in from 127.0.0.1 via password
-[10:37:02][Viktor0524] logged in via in-game ui
-[10:43:16][Viktor0524] logged in via in-game ui
-[10:44:24][Viktor0524] executed "refresh"
+[14:58:22][Viktor0524] logged in from 127.0.0.1 via password
+[14:58:51][Viktor0524] executed "ensure "coords""
+[14:59:39][Viktor0524] executed "ensure coords"
+[15:01:00][Viktor0524] logged in via in-game ui
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 10:46:29
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 15:07:03
 ================================================================
-[10:46:32][Viktor0524] logged in from 127.0.0.1 via password
-[10:48:36][Viktor0524] logged in via in-game ui
+[15:08:11][Viktor0524] logged in via in-game ui
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 10:56:47
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 15:48:48
 ================================================================
-[10:56:50][Viktor0524] logged in from 127.0.0.1 via password
+[15:49:16][Viktor0524] logged in from 127.0.0.1 via password
+[15:50:44][Viktor0524] logged in via in-game ui
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 10:58:42
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 16:12:17
 ================================================================
-[10:58:45][Viktor0524] logged in from 127.0.0.1 via password
-[11:00:22][Viktor0524] executed "ensure oxmysql"
-[11:00:25][Viktor0524] executed "start oxmysql"
-[11:00:44][Viktor0524] executed "RESTART SERVER"
-[11:01:29][Viktor0524] executed "RESTART SERVER"
-[11:08:22][Viktor0524] executed "RESTART SERVER"
+[16:12:25][Viktor0524] logged in from 127.0.0.1 via password
+[16:12:51][Viktor0524] executed "refresh"
+[16:14:22][Viktor0524] executed "ensure s14_demon"
+[16:14:34][Viktor0524] executed "ensure "s14_demon""
+[16:15:13][Viktor0524] logged in via in-game ui
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 11:09:09
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 17:13:47
 ================================================================
-[11:09:11][Viktor0524] logged in from 127.0.0.1 via password
-[11:16:36][Viktor0524] executed "RESTART SERVER"
-[11:19:19][Viktor0524] executed "ensure "oxmysql""
+[17:15:13][Viktor0524] logged in via in-game ui
+[17:20:51][Viktor0524] logged in from 127.0.0.1 via password
+[17:20:58][Viktor0524] executed "ensure speedometer"
+[17:26:12][Viktor0524] executed "ensure "speedometer""
+[17:29:28][Viktor0524] executed "RESTART SERVER"
+[17:30:13][Viktor0524] logged in via in-game ui
+[17:31:38][Viktor0524] executed "ensure speedometer"
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 14:47:05
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 17:40:49
 ================================================================
-[14:47:15][Viktor0524] logged in from 127.0.0.1 via password
-[14:48:03][Viktor0524] logged in via in-game ui
-[14:52:54][Viktor0524] executed "RESTART SERVER"
-[14:54:12][Viktor0524] logged in via in-game ui
-[14:55:09][Viktor0524] executed "ensure "first""
-[15:00:11][Viktor0524] executed "ensure "amggt63""
-[15:01:02][Viktor0524] executed "ensure "amggt63""
-[15:01:27][Viktor0524] logged in via in-game ui
-[15:03:34][Viktor0524] executed "ensure "amggt63""
-[15:03:40][Viktor0524] executed "ensure "amggt63""
-[15:11:10][Viktor0524] executed "refresh"
-[15:11:13][Viktor0524] executed "ensure "rs6""
-[15:12:15][Viktor0524] executed "ensure "rs6""
-[15:13:35][Viktor0524] executed "ensure "rs6""
-[15:14:39][Viktor0524] executed "ensure "amggt63""
-[15:14:39][Viktor0524] executed "ensure "rs6""
-[15:15:13][Viktor0524] logged in via in-game ui
-[15:17:20][Viktor0524] executed "ensure "rs6""
-[15:17:20][Viktor0524] executed "ensure "amggt63""
-[15:18:01][Viktor0524] executed "ensure "amggt63""
-[15:18:01][Viktor0524] executed "ensure "rs6""
-[15:19:20][Viktor0524] executed "ensure "rs6""
-[15:22:34][Viktor0524] executed "refresh"
-[15:22:37][Viktor0524] executed "ensure "sxf450sm""
-[15:26:07][Viktor0524] executed "ensure "rs6""
+[17:40:59][Viktor0524] logged in from 127.0.0.1 via password
+[17:42:11][Viktor0524] logged in via in-game ui
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 17:14:51
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 19:24:44
 ================================================================
-[17:15:13][Viktor0524] logged in from 127.0.0.1 via password
+[19:25:44][Viktor0524] logged in via in-game ui
 
 ================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 17:16:27
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-09 20:24:27
 ================================================================
-[17:16:34][Viktor0524] logged in from 127.0.0.1 via password
-[17:17:18][Viktor0524] Changing fxRunner settings.
-
-================================================================
-======== txAdmin v6.0.2 atop fxserver 7290 Starting - 2025-03-08 17:17:32
-================================================================
-[17:17:34][Viktor0524] logged in from 127.0.0.1 via password
-[17:18:33][Viktor0524] executed "refresh"
-[17:21:18][Viktor0524] logged in via in-game ui
-[17:29:19][Viktor0524] logged in via in-game ui
+[20:26:35][Viktor0524] logged in via in-game ui

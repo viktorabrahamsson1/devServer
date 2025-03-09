@@ -28,14 +28,31 @@ ensure sessionmanager
 ensure basic-gamemode
 ensure hardcap
 
+ensure baseevents
+
+
 ## MY SCRIPTS
 ensure spawnCar
 ensure deleteCar 
+ensure spawnLocation
+ensure spawnMessage
+ensure changePed
+ensure speedometer
+
+
+## Development
+ensure getCoords 
+ensure coords
+
+
 
 ## CARS
-ensure amggt63
-ensure rs6
-ensure rxf450sm
+ensure amggt63 		## modelname: amggt63
+ensure rs6			## modelname: rs6avant20
+ensure sxf450sm 	## modelname: sxf450sm
+ensure s14_demon	## modelname: peptos_s14_demon
+ensure peptos_911rs	## modelname: peptos_911rs
+
 
 ## Add system admins
 add_ace group.admin command allow # allow all commands
