@@ -1,0 +1,1034 @@
+
+================================================================
+======== Log Rotated - 2025-03-09 13:03:33                      
+================================================================
+
+================================================================
+======== FXServer Starting - 2025-03-09 13:03:43                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 35 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[resources:spawnMessa] Warning: could not find client_script `build/client/client.js` (defined in fxmanifest.lua:4)
+[resources:spawnMessa] Warning: could not find server_script `build/server/server.js` (defined in fxmanifest.lua:8)
+[           resources] Started resource spawnMessage (2 warnings)
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for ballCoords
+[   script:ballCoords] test
+[           resources] Started resource ballCoords
+[   resources:amggt63] Warning: could not find file `vehiclelayouts.meta` (defined in fxmanifest.lua:11)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+[       resources:rs6] Warning: could not find file `vehiclelayouts.meta` (defined in fxmanifest.lua:11)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+[ citizen-server-impl] Couldn't find resource rxf450sm.
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> ensure spawnMessage
+[           resources] Stopping resource spawnMessage
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ script:spawnMessage] ${playerName} has connected to the server
+[      script:hardcap] Connecting: Dator
+> ensure spawnMessage
+[           resources] Stopping resource spawnMessage
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    script:getCoords] x coords: -75.81330108642578, y coords: -817.5435180664062z coords: 326.170654296875, heading: 216.89100646972656
+> txaReportResources
+[38;5;84m[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> stop "ballCoords"
+[           resources] Stopping resource ballCoords
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[    script:getCoords] [97mx coords: -75.1946792602539, y coords: -818.8764038085938z coords: 325.8849792480469, heading: 209.08580017089844
+[    script:deleteCar] The car was deleted. SERVER LOG
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[38;5;84m[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "sxf450sm"
+[           resources] Warning: Resource sxf450sm does not support the current game (gta5).
+[           resources] Warning: Resource sxf450sm does not specify an `fx_version` in fxmanifest.lua.
+[ citizen-server-impl] Couldn't start resource sxf450sm.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Viktor0524＂,＂message＂:＂Server restarting (requested by Viktor0524).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 2025-03-09 13:22:50                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 35 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] [0mStarted resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] [0mCreating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[38;5;161m[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[   resources:amggt63] Warning: could not find file `dlctex.meta` (defined in fxmanifest.lua:11)
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (4 warnings)
+[       resources:rs6] Warning: could not find file `dlctex.meta` (defined in fxmanifest.lua:11)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (2 warnings)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+
+================================================================
+======== FXServer Starting - 2025-03-09 14:58:29                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 36 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] [97mtest
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] [0mCreating script environments for getCoords
+[           resources] Started resource getCoords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[38;5;172m[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[38;5;73m[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "coords"
+[    resources:coords] Warning: could not find client_script `build/client/client.js` (defined in fxmanifest.lua:4)
+[    resources:coords] Warning: could not find server_script `build/server/server.js` (defined in fxmanifest.lua:8)
+[           resources] Started resource coords (2 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure coords
+[           resources] Stopping resource coords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[ script:spawnMessage] Dator has connected to the server
+[      script:hardcap] Connecting: Dator
+
+================================================================
+======== FXServer Starting - 2025-03-09 15:07:13                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 36 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] [0mServer license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] [0mCreating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[38;5;172m[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ script:spawnMessage] Dator has connected to the server
+[      script:hardcap] Connecting: Dator
+
+================================================================
+======== FXServer Starting - 2025-03-09 15:49:15                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 36 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [36m[txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] [97mtest
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] [0mAuthenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+
+================================================================
+======== FXServer Starting - 2025-03-09 16:12:32                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 39 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+> txaReportResources
+[ resources:s14_demon] Warning: could not find file `data/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/carvariations.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/handling.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/carcols.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/vehicles.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/*.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] [0mStarted resource s14_demon (9 warnings)
+[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource peptos_911rs (4 warnings)
+[           resources] Started resource rod
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+> refresh
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/38 resources.
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure s14_demon
+[           resources] Stopping resource s14_demon
+[ resources:s14_demon] Warning: could not find file `data/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/carvariations.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/handling.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/carcols.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/vehicles.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/*.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (9 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "s14_demon"
+[           resources] Stopping resource s14_demon
+[ resources:s14_demon] Warning: could not find file `data/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/carvariations.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/handling.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/carcols.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] [0mWarning: could not find file `data/vehicles.meta` (defined in fxmanifest.lua:3)
+[ resources:s14_demon] Warning: could not find file `data/*.meta` (defined in fxmanifest.lua:3)
+[38;5;78m[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (9 warnings)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ script:spawnMessage] [97mBiktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+[    script:deleteCar] The car was deleted. SERVER LOG
+[         script:chat] Biktor: clear
+
+================================================================
+======== FXServer Starting - 2025-03-09 17:13:58                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 38 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] [0mCreating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (3 warnings)
+[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource peptos_911rs (4 warnings)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ citizen-server-impl] network thread hitch warning: timer interval of 208 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 189 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 190 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 179 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 196 milliseconds
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+> ensure speedometer
+[           resources] Stopping resource speedometer
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> ensure "speedometer"
+[           resources] Stopping resource speedometer
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Viktor0524＂,＂message＂:＂Server restarting (requested by Viktor0524).＂}"
+[      script:monitor] [36m[txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 2025-03-09 17:29:34                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 38 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] [97mCreating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] [97mStarted resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] [0mCreating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] [0mAsset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (3 warnings)
+[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource peptos_911rs (4 warnings)
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl] [91m ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+> ensure speedometer
+[           resources] Stopping resource speedometer
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+
+================================================================
+======== FXServer Starting - 2025-03-09 17:40:59                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 38 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] [0mCreating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] [94mAsset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (3 warnings)
+[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource peptos_911rs (4 warnings)
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl] [91m        fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ citizen-server-impl] server thread hitch warning: timer interval of 186 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 192 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 208 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 186 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 225 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 254 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 308 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 154 milliseconds
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+[ citizen-server-impl] server thread hitch warning: timer interval of 203 milliseconds
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+
+================================================================
+======== FXServer Starting - 2025-03-09 19:24:55                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 38 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[38;5;83m[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] [97mtest
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (3 warnings)
+[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource peptos_911rs (4 warnings)
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+
+================================================================
+======== FXServer Starting - 2025-03-09 20:24:37                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 39 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] [0mStarted gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] test
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+[    c-scripting-core] Creating script environments for objectSpawner
+[           resources] Started resource objectSpawner
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (3 warnings)
+[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource peptos_911rs (4 warnings)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ citizen-server-impl] server thread hitch warning: timer interval of 157 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 170 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 199 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 201 milliseconds
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Operation timed out <- System.Net.Http.HttpRequestException: Operation timed out (83.250.222.247:30120)
+
+================================================================
+======== FXServer Starting - 2025-03-09 21:21:58                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 39 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [36m[txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] [0mtest
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[    script:changePed] [0mtest
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+[    c-scripting-core] Creating script environments for objectSpawner
+[           resources] Started resource objectSpawner
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (3 warnings)
+[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource peptos_911rs (4 warnings)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: [0mhttps://viktor0524-bzbqe8.users.cfx.re/
+[ citizen-server-impl] network thread hitch warning: timer interval of 240 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 242 milliseconds
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+[    script:getCoords] x coords: 124.35806274414062, y coords: -560.2774047851562z coords: 43.263221740722656, heading: 326.28094482421875
+[ citizen-server-impl] [0mserver thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+> refresh
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/39 resources.
+> txaReportResources
+[      script:monitor] [36m[txAdmin] Sending resources list to txAdmin.
+> ensure "animation"
+[    c-scripting-core] Creating script environments for animation
+[           resources] Started resource animation
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Operation timed out <- System.Net.Http.HttpRequestException: Operation timed out (83.250.222.247:30120)
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [17144] FXServer Starting - 2025-03-09 22:25:59        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 40 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for spawnCar
+[     script:spawnCar] test
+[           resources] Started resource spawnCar
+[    c-scripting-core] Creating script environments for deleteCar
+[    script:deleteCar] test
+[           resources] Started resource deleteCar
+[    c-scripting-core] Creating script environments for spawnLocation
+[script:spawnLocation] test
+[           resources] Started resource spawnLocation
+[    c-scripting-core] Creating script environments for spawnMessage
+[           resources] Started resource spawnMessage
+[    c-scripting-core] Creating script environments for changePed
+[           resources] Started resource changePed
+[    c-scripting-core] Creating script environments for speedometer
+[           resources] Started resource speedometer
+[    c-scripting-core] Creating script environments for objectSpawner
+[           resources] Started resource objectSpawner
+[    c-scripting-core] Creating script environments for animation
+[           resources] Started resource animation
+[    c-scripting-core] Creating script environments for getCoords
+[           resources] Started resource getCoords
+[    c-scripting-core] Creating script environments for coords
+[           resources] Started resource coords
+[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
+[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
+[           resources] Started resource amggt63 (3 warnings)
+[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rs6 (1 warning)
+[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
+[           resources] Started resource sxf450sm (1 warning)
+[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
+[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource s14_demon (3 warnings)
+[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
+[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource peptos_911rs (4 warnings)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ citizen-server-impl] network thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+[ script:spawnMessage] Biktor has connected to the server
+[      script:hardcap] Connecting: Biktor
+[ citizen-server-main] -> Quitting: host shutting down

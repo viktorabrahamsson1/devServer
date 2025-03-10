@@ -5,7 +5,7 @@
 #   https://docs.fivem.net/docs/server-manual/setting-up-a-server/
 
 ## You SHOULD edit the following:
-sv_hostname "viktors dev server built with CFX Default FiveM!"
+sv_hostname "viktors dev server"
 sets sv_projectName "Viktors dev server"
 sets sv_projectDesc "Recipe for the base resources required to run a minimal FiveM server."
 sets tags "default, deployer"
@@ -28,30 +28,30 @@ ensure sessionmanager
 ensure basic-gamemode
 ensure hardcap
 
+
+
+## EVENTS
 ensure baseevents
 
 
-## MY SCRIPTS
-ensure spawnCar
-ensure deleteCar 
-ensure spawnLocation
-ensure spawnMessage
-ensure changePed
-ensure speedometer
+## PRACTICE SCRIPTS
+ensure hello
+ensure coords
+ensure spawnCone
 
 
 ## Development
 ensure getCoords 
-ensure coords
+
 
 
 
 ## CARS
-ensure amggt63 		## modelname: amggt63
+ensure amggt63 			## modelname: amggt63
 ensure rs6			## modelname: rs6avant20
-ensure sxf450sm 	## modelname: sxf450sm
-ensure s14_demon	## modelname: peptos_s14_demon
-ensure peptos_911rs	## modelname: peptos_911rs
+ensure sxf450sm 		## modelname: sxf450sm
+ensure s14_demon		## modelname: peptos_s14_demon
+ensure peptos_911rs		## modelname: peptos_911rs
 
 
 ## Add system admins
