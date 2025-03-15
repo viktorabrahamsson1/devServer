@@ -1,0 +1,487 @@
+================================================================
+======== Log Rotated - 2025-03-13 09:07:00                      
+================================================================
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16868] FXServer Starting - 2025-03-13 09:07:01        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 29 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] sync thread hitch warning: timer interval of 216 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 224 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 137 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 121 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 131 milliseconds
+[      script:hardcap] Connecting: Dator
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 185 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 219 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 211 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 193 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 145 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 157 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 170 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 256 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 212 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 175 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 119 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] server thread hitch warning: timer interval of 170 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 168 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 163 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 168 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:va_teleporter] 0
+[script:va_teleporter] 1
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:va_teleporter] 0
+[script:va_teleporter] 1
+[script:va_teleporter] 0
+[script:va_teleporter] 2
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 219 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 132 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[      script:hardcap] Connecting: Dator
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [1736] FXServer Starting - 2025-03-13 16:02:16         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 29 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[      script:hardcap] Connecting: Dator
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] SCRIPT ERROR: @va_teleporter/server/main.lua:6: attempt to compare string with number
+[script:va_teleporter] > handler (@va_teleporter/server/main.lua:6)
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] SCRIPT ERROR: @va_teleporter/server/main.lua:6: attempt to compare string with number
+[script:va_teleporter] > handler (@va_teleporter/server/main.lua:6)
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] SCRIPT ERROR: @va_teleporter/server/main.lua:6: attempt to compare string with number
+[script:va_teleporter] > handler (@va_teleporter/server/main.lua:6)
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] Source: AKA ME: 2
+[script:va_teleporter] Source: AKA ME: 2
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Operation timed out <- System.Net.Http.HttpRequestException: Operation timed out (83.250.222.247:30120)
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] Source: AKA ME: 2
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] SCRIPT ERROR: @va_teleporter/server/main.lua:14: attempt to call a nil value (global 'PlayerPedId')
+[script:va_teleporter] > handler (@va_teleporter/server/main.lua:14)
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:va_teleporter] Source: AKA ME: 1
+[script:va_teleporter] Source: AKA ME: 1
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[script:va_teleporter] Source: AKA ME: 1
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ ensure "va_weapon"
+[           resources] Stopping resource va_weapon
+[    c-scripting-core] Creating script environments for va_weapon
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource va_weapon
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ ensure "va_weapon"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_weapon
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[ citizen-server-impl] server thread hitch warning: timer interval of 204 milliseconds
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] Connecting: Dator
+[      script:hardcap] Connecting: Dator
+║          Viktor0524║ ensure "va_teleporter"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_teleporter
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ ensure "va_weapon"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_weapon
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[    script:va_weapon] SCRIPT ERROR: @va_weapon/server/main.lua:2: attempt to call a nil value (global 'RequestModel')
+[    script:va_weapon] > handler (@va_weapon/server/main.lua:2)
+[    script:va_weapon] SCRIPT ERROR: @va_weapon/server/main.lua:2: attempt to call a nil value (global 'RequestModel')
+[    script:va_weapon] > handler (@va_weapon/server/main.lua:2)
+[    script:va_weapon] SCRIPT ERROR: @va_weapon/server/main.lua:2: attempt to call a nil value (global 'RequestModel')
+[    script:va_weapon] > handler (@va_weapon/server/main.lua:2)
+[    script:va_weapon] WEAPON_PISTOL
+[    script:va_weapon] SCRIPT ERROR: @va_weapon/server/main.lua:3: attempt to call a nil value (global 'RequestModel')
+[    script:va_weapon] > handler (@va_weapon/server/main.lua:3)
+[    script:va_weapon] WEAPON_PISTOL
+║          Viktor0524║ ensure "va_weapon"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_weapon
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[    script:va_weapon] WEAPON_PISTOL
+[    script:va_weapon] WEAPON_PISTOL
+║          Viktor0524║ ensure "va_weapon"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource va_weapon
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[    script:va_weapon] WEAPON_APPISTOL
+[    script:va_weapon] 2
+[    script:va_weapon] WEAPON_APPISTOL
+[    script:va_weapon] 1
+[script:va_teleporter] Source: AKA ME: 4
+[script:va_teleporter] Source: AKA ME: 4
+[script:va_teleporter] Source: AKA ME: 4
+[script:va_teleporter] Source: AKA ME: 4
+[    script:va_weapon] WEAPON_APPISTOL
+[    script:va_weapon] 3
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14788] FXServer Starting - 2025-03-13 16:59:15        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 30 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[      script:hardcap] Connecting: Dator
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] Connecting: Dator
+[      script:hardcap] Connecting: Dator
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [8648] FXServer Starting - 2025-03-13 18:58:24         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 31 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[ citizen-server-impl] Couldn't find resource pun_idgun.
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[      script:hardcap] Connecting: Dator
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/30 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/31 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ ensure "pun_idgun"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ ensure "pun_idgun-master"
+║             TXADMIN║ txaReportResources 
+[resources:pun_idgun-] Warning: could not find client_script `client.lua` (defined in fxmanifest.lua:5)
+[resources:pun_idgun-] Warning: could not find server_script `server.lua` (defined in fxmanifest.lua:4)
+[resources:pun_idgun-] Warning: could not find file `hashes.json` (defined in fxmanifest.lua:7)
+[           resources] Started resource pun_idgun-master (3 warnings)
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[        resources:te] Warning: te does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/31 resources.
+[           resources] 1 warning was encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [7008] FXServer Starting - 2025-03-13 19:01:41         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[        resources:te] Warning: te does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 32 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║          Viktor0524║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[        resources:te] Warning: te does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/31 resources.
+[           resources] 1 warning was encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:hardcap] Connecting: Dator

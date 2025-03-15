@@ -38,6 +38,8 @@ ensure baseevents
 ensure hello
 ensure coords
 ensure spawnCone
+ensure changePed
+ensure animation
 
 
 ## Development

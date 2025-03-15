@@ -1,11 +1,11 @@
 ================================================================
-======== Log Rotated - 2025-03-10 19:02:35                      
+======== Log Rotated - 2025-03-15 09:17:08                      
 ================================================================
 ║             TXADMIN║ ================================================================
-║             TXADMIN║ ======== [19700] FXServer Starting - 2025-03-10 19:02:37        
+║             TXADMIN║ ======== [8328] FXServer Starting - 2025-03-15 09:17:10         
 ║             TXADMIN║ ================================================================
 [           resources] Scanning resources.
-[           resources] Found 34 resources.
+[           resources] Found 37 resources.
 [          svadhesive] Authenticating server license key...
 [          svadhesive] Server license key authentication succeeded. Welcome!
 [    c-scripting-core] Creating script environments for sessionmanager
@@ -13,6 +13,10 @@
 [    c-scripting-core] Creating script environments for monitor
 [      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
 [           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
 [    c-scripting-core] Creating script environments for mapmanager
 [           resources] Started resource mapmanager
 [    c-scripting-core] Creating script environments for chat
@@ -22,42 +26,29 @@
 [           resources] Started resource basic-gamemode
 [    c-scripting-core] Creating script environments for hardcap
 [           resources] Started resource hardcap
-[    c-scripting-core] Creating script environments for baseevents
-[           resources] Started resource baseevents
-[    c-scripting-core] Creating script environments for spawnCar
-[     script:spawnCar] test
-[           resources] Started resource spawnCar
-[    c-scripting-core] Creating script environments for deleteCar
-[    script:deleteCar] test
-[           resources] Started resource deleteCar
-[ citizen-server-impl] Couldn't find resource spawnLocation.
-[ citizen-server-impl] Couldn't find resource spawnMessage.
-[ citizen-server-impl] Couldn't find resource changePed.
-[ citizen-server-impl] Couldn't find resource speedometer.
-[ citizen-server-impl] Couldn't find resource objectSpawner.
-[ citizen-server-impl] Couldn't find resource animation.
-[    c-scripting-core] Creating script environments for getCoords
-[           resources] Started resource getCoords
-[ citizen-server-impl] Couldn't find resource coords.
-[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
-[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
-[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
-[           resources] Started resource amggt63 (3 warnings)
-[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
-[           resources] Started resource rs6 (1 warning)
-[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
-[           resources] Started resource sxf450sm (1 warning)
-[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
-[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
-[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
-[           resources] Started resource s14_demon (3 warnings)
-[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
-[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
-[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
-[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
-[           resources] Started resource peptos_911rs (4 warnings)
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[    c-scripting-core] Creating script environments for va_gui
+[           resources] Started resource va_gui
+[    c-scripting-core] Creating script environments for va_nuiteleporter
+[           resources] Started resource va_nuiteleporter
+[    c-scripting-core] Creating script environments for va_testtemplate
+[           resources] Started resource va_testtemplate
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
 [   script:mapmanager] Started map fivem-map-skater
 [           resources] Started resource fivem-map-skater
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
 [ citizen-server-impl]         fff                          
 [ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
 [ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
@@ -65,128 +56,577 @@
 [ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
 [ citizen-server-impl]                                      
 [ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-[ citizen-server-impl] server thread hitch warning: timer interval of 174 milliseconds
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║          Viktor0524║ ensure "hello"
-║             TXADMIN║ txaReportResources 
-[    c-scripting-core] Creating script environments for hello
-[           resources] Started resource hello
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.30.2
 [      script:hardcap] Connecting: Dator
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║          Viktor0524║ ensure "hello"
-║             TXADMIN║ txaReportResources 
-[           resources] Stopping resource hello
-[    c-scripting-core] Creating script environments for hello
-[           resources] Started resource hello
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║             TXADMIN║ ================================================================
-║             TXADMIN║ ======== [17256] FXServer Starting - 2025-03-10 19:13:53        
-║             TXADMIN║ ================================================================
-[           resources] Scanning resources.
-[           resources] Found 35 resources.
-[          svadhesive] Authenticating server license key...
-[          svadhesive] Server license key authentication succeeded. Welcome!
-[    c-scripting-core] Creating script environments for sessionmanager
-[           resources] Started resource sessionmanager
-[    c-scripting-core] Creating script environments for monitor
-[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
-[           resources] Started resource monitor
-[    c-scripting-core] Creating script environments for mapmanager
-[           resources] Started resource mapmanager
-[    c-scripting-core] Creating script environments for chat
-[           resources] Started resource chat
-[           resources] Started resource spawnmanager
-[   script:mapmanager] Started gametype Freeroam
-[           resources] Started resource basic-gamemode
-[    c-scripting-core] Creating script environments for hardcap
-[           resources] Started resource hardcap
-[    c-scripting-core] Creating script environments for baseevents
-[           resources] Started resource baseevents
-[    c-scripting-core] Creating script environments for hello
-[           resources] Started resource hello
-[    c-scripting-core] Creating script environments for getCoords
-[           resources] Started resource getCoords
-[    c-scripting-core] Creating script environments for coords
-[           resources] Started resource coords
-[resources:amggt63:st] Asset amggt63/amggt63.yft uses 16.3 MiB of virtual memory.
-[resources:amggt63:st] Asset amggt63/amggt63.ytd uses 83.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
-[resources:amggt63:st] Asset amggt63/amggt63_hi.yft uses 16.3 MiB of virtual memory.
-[           resources] Started resource amggt63 (3 warnings)
-[resources:rs6:stream] Asset rs6/rs6avant20.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
-[           resources] Started resource rs6 (1 warning)
-[resources:sxf450sm:s] Asset sxf450sm/sxf450sm.ytd uses 43.0 MiB of physical memory.
-[           resources] Started resource sxf450sm (1 warning)
-[ resources:s14_demon] Warning: could not find file `data/dlctext.meta` (defined in fxmanifest.lua:3)
-[resources:s14_demon:] Asset s14_demon/peptos_s14_demon.ytd uses 24.0 MiB of physical memory.
-[resources:s14_demon:] Asset s14_demon/peptos_s14_demon_2.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
-[           resources] Started resource s14_demon (3 warnings)
-[resources:peptos_911] Warning: could not find file `data/**/vehiclelayouts.meta` (defined in fxmanifest.lua:3)
-[resources:peptos_911] Asset peptos_911rs/peptos_911rs.yft uses 24.0 MiB of virtual memory.
-[resources:peptos_911] Asset peptos_911rs/peptos_911rs.ytd uses 32.8 MiB of physical memory.
-[resources:peptos_911] Asset peptos_911rs/peptos_911rs_hi.yft uses 24.0 MiB of virtual memory.
-[           resources] Started resource peptos_911rs (4 warnings)
-[   script:mapmanager] Started map fivem-map-skater
-[           resources] Started resource fivem-map-skater
-[ citizen-server-impl]         fff                          
-[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-[      script:hardcap] Connecting: Dator
-║          Viktor0524║ ensure spawnCone
-[ citizen-server-impl] Couldn't find resource spawnCone.
-║          Viktor0524║ ensure spawnCone
-[ citizen-server-impl] Couldn't find resource spawnCone.
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║          Viktor0524║ refresh 
-║             TXADMIN║ txaReportResources 
-[           resources] Scanning resources.
-[           resources] Found 1 new resources, and refreshed 0/35 resources.
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║          Viktor0524║ start spawnCone
-[    c-scripting-core] Creating script environments for spawnCone
-[           resources] Started resource spawnCone
-[      script:hardcap] Connecting: Dator
-[ citizen-server-impl] server thread hitch warning: timer interval of 190 milliseconds
-[ citizen-server-impl] server thread hitch warning: timer interval of 210 milliseconds
-[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 106 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
 [ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
-[      script:hardcap] Connecting: Dator
-║             TXADMIN║ txaReportResources 
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║          Viktor0524║ refresh 
-║             TXADMIN║ txaReportResources 
+[ citizen-server-impl] sync thread hitch warning: timer interval of 128 milliseconds
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [22444] FXServer Starting - 2025-03-15 17:47:05        
+║             TXADMIN║ ================================================================
 [           resources] Scanning resources.
-[           resources] Found 1 new resources, and refreshed 0/36 resources.
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║          Viktor0524║ ensure "changePed"
-║             TXADMIN║ txaReportResources 
-[    c-scripting-core] Creating script environments for changePed
-[           resources] Started resource changePed
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
-║          Viktor0524║ ensure "changePed"
-║             TXADMIN║ txaReportResources 
-[           resources] Stopping resource changePed
-[    c-scripting-core] Creating script environments for changePed
-[           resources] Started resource changePed
-[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[           resources] Found 37 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[    c-scripting-core] Creating script environments for va_gui
+[           resources] Started resource va_gui
+[    c-scripting-core] Creating script environments for va_nuiteleporter
+[           resources] Started resource va_nuiteleporter
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.30.2
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [17936] FXServer Starting - 2025-03-15 17:54:13        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 37 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[    c-scripting-core] Creating script environments for va_gui
+[           resources] Started resource va_gui
+[    c-scripting-core] Creating script environments for va_nuiteleporter
+[           resources] Started resource va_nuiteleporter
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.30.2
+[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 180 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 186 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 122 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 194 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 120 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 124 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 144 milliseconds
 [      script:hardcap] Connecting: Dator
-[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
-[ citizen-server-impl] server thread hitch warning: timer interval of 173 milliseconds
-[ citizen-server-impl] server thread hitch warning: timer interval of 308 milliseconds
-[ citizen-server-impl] server thread hitch warning: timer interval of 214 milliseconds
-[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
-[ citizen-server-impl] server thread hitch warning: timer interval of 174 milliseconds
+[      script:oxmysql] Error: va_greeting was unable to execute a query!
+[      script:oxmysql] Query: INSERT INTO greetings (identifier,greeting) VALUES (?, ?) ON DUBLICATE KEY UPDATE greeting = ?
+[      script:oxmysql] [null,"",""]
+[      script:oxmysql] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DUBLICATE KEY UPDATE greeting = ''' at line 1
+[      script:oxmysql] Error: va_greeting was unable to execute a query!
+[      script:oxmysql] Query: INSERT INTO greetings (identifier,greeting) VALUES (?, ?) ON DUBLICATE KEY UPDATE greeting = ?
+[      script:oxmysql] [null,"",""]
+[      script:oxmysql] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DUBLICATE KEY UPDATE greeting = ''' at line 1
+[      script:oxmysql] Error: va_greeting was unable to execute a query!
+[      script:oxmysql] Query: INSERT INTO greetings (identifier,greeting) VALUES (?, ?) ON DUBLICATE KEY UPDATE greeting = ?
+[      script:oxmysql] [null,"hello","hello"]
+[      script:oxmysql] You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DUBLICATE KEY UPDATE greeting = 'hello'' at line 1
+[      script:oxmysql] Error: va_greeting was unable to execute a query!
+[      script:oxmysql] Query: INSERT INTO greetings (identifier, greeting) VALUES (?, ?) ON DUPLICATE KEY UPDATE greeting = ?
+[      script:oxmysql] [null,"hello sir","hello sir"]
+[      script:oxmysql] Column 'identifier' cannot be null
+[ citizen-server-impl] server thread hitch warning: timer interval of 194 milliseconds
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[      script:oxmysql] Error: va_greeting was unable to execute a query!
+[      script:oxmysql] Query: INSERT INTO greetings (identifier, greeting) VALUES (?, ?) ON DUPLICATE KEY UPDATE greeting = ?
+[      script:oxmysql] [null,"ghefsdfsdf","ghefsdfsdf"]
+[      script:oxmysql] Column 'identifier' cannot be null
+[      script:oxmysql] Error: va_greeting was unable to execute a query!
+[      script:oxmysql] Query: SELECT greeting FROM greetings WHERE identifer = ?
+[      script:oxmysql] ["license:e4fa85e8519082e519c40b1b4c1732f1b8373697"]
+[      script:oxmysql] Unknown column 'identifer' in 'WHERE'
+[  script:va_greeting] [{"greeting":"hello discord"}]
+[  script:va_greeting] SCRIPT ERROR: @oxmysql/lib/MySQL.lua:82: No such export scaler in resource oxmysql
+[  script:va_greeting] "hello discord"
+[    c-scripting-core] script error in native 000000002f7a49e6: Argument at index 1 was null.
+[  script:va_greeting] SCRIPT ERROR: native 000000002f7a49e6: Argument at index 1 was null.
+[  script:va_greeting] > [global chunk] (TriggerClientEventInternal.lua:3)
+[  script:va_greeting] > ref (@va_greeting/server/main.lua:21)
+[  script:va_greeting] > new StackDumpError (@oxmysql/citizen:/scripting/v8/main.js:405)
+[  script:va_greeting] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:425)
+[  script:va_greeting] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:86)
+[  script:va_greeting] > Number.__cfx_wrap_11205 (@oxmysql/citizen:/scripting/v8/main.js:24)
+[  script:va_greeting] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:30)
+[  script:va_greeting] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:83)
+[  script:va_greeting] > rawQuery (@oxmysql/dist/build.js:26132)
+[  script:va_greeting] > process.processTicksAndRejections (node:internal/process/task_queues:105)
+[  script:va_greeting] "hello discord"
+[    c-scripting-core] script error in native 000000002f7a49e6: Argument at index 1 was null.
+[  script:va_greeting] SCRIPT ERROR: native 000000002f7a49e6: Argument at index 1 was null.
+[  script:va_greeting] > [global chunk] (TriggerClientEventInternal.lua:3)
+[  script:va_greeting] > ref (@va_greeting/server/main.lua:21)
+[  script:va_greeting] > new StackDumpError (@oxmysql/citizen:/scripting/v8/main.js:405)
+[  script:va_greeting] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:425)
+[  script:va_greeting] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:86)
+[  script:va_greeting] > Number.__cfx_wrap_11856 (@oxmysql/citizen:/scripting/v8/main.js:24)
+[  script:va_greeting] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:30)
+[  script:va_greeting] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:83)
+[  script:va_greeting] > rawQuery (@oxmysql/dist/build.js:26132)
+[  script:va_greeting] > process.processTicksAndRejections (node:internal/process/task_queues:105)
+[  script:va_greeting] "hello discord"
 [      script:hardcap] Connecting: Dator
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [1448] FXServer Starting - 2025-03-15 20:33:03         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 37 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[    c-scripting-core] Creating script environments for va_greeting
+[           resources] Started resource va_greeting
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.30.3
+[ citizen-server-impl] sync thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[     script:va_spawn] SCRIPT ERROR: @va_spawn/server/main.lua:41: attempt to index a nil value (global 'MySQL')
+[     script:va_spawn] > handler (@va_spawn/server/main.lua:41)
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] sync thread hitch warning: timer interval of 129 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 177 milliseconds
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl] sync thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 123 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 187 milliseconds
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl] server thread hitch warning: timer interval of 185 milliseconds
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl] server thread hitch warning: timer interval of 245 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 197 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 196 milliseconds
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14640] FXServer Starting - 2025-03-15 20:45:33        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 37 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[    c-scripting-core] Creating script environments for va_greeting
+[           resources] Started resource va_greeting
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-skater
+[           resources] Started resource fivem-map-skater
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.30.3
+[      script:hardcap] Connecting: Dator
+[     script:va_spawn] SCRIPT ERROR: @va_spawn/server/main.lua:50: attempt to index a nil value (field '?')
+[     script:va_spawn] > ref (@va_spawn/server/main.lua:50)
+[     script:va_spawn] > new StackDumpError (@oxmysql/citizen:/scripting/v8/main.js:405)
+[     script:va_spawn] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:425)
+[     script:va_spawn] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:86)
+[     script:va_spawn] > Number.__cfx_wrap_773 (@oxmysql/citizen:/scripting/v8/main.js:24)
+[     script:va_spawn] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:30)
+[     script:va_spawn] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:83)
+[     script:va_spawn] > rawQuery (@oxmysql/dist/build.js:26132)
+[     script:va_spawn] > process.processTicksAndRejections (node:internal/process/task_queues:105)
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] server thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 161 milliseconds
+[      script:hardcap] Connecting: Dator
+[     script:va_spawn] table: 0000026EF61C28E0
+[     script:va_spawn] RESULT: 	table: 0000026EF66F5D50
+[     script:va_spawn] SCRIPT ERROR: @va_spawn/server/main.lua:55: attempt to index a nil value (field '?')
+[     script:va_spawn] > ref (@va_spawn/server/main.lua:55)
+[     script:va_spawn] > new StackDumpError (@oxmysql/citizen:/scripting/v8/main.js:405)
+[     script:va_spawn] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:425)
+[     script:va_spawn] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:86)
+[     script:va_spawn] > Number.__cfx_wrap_12292 (@oxmysql/citizen:/scripting/v8/main.js:24)
+[     script:va_spawn] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:30)
+[     script:va_spawn] > <unknown> (@oxmysql/citizen:/scripting/v8/main.js:83)
+[     script:va_spawn] > rawQuery (@oxmysql/dist/build.js:26132)
+[     script:va_spawn] > process.processTicksAndRejections (node:internal/process/task_queues:105)
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [21676] FXServer Starting - 2025-03-15 21:50:56        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 37 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[    c-scripting-core] Creating script environments for va_greeting
+[           resources] Started resource va_greeting
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[       script:ox_lib] An update is available for ox_lib (current version: 3.30.1)
+[       script:ox_lib] https://github.com/overextended/ox_lib/releases/tag/v3.30.3
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 175 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 185 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 196 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 124 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 178 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 119 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 255 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 188 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 315 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 361 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 110 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[      script:hardcap] Connecting: Dator
+[ citizen-server-impl] sync thread hitch warning: timer interval of 232 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 232 milliseconds
+[     script:va_spawn] 0
+[     script:va_spawn] 0
+[     script:va_spawn] table: 00000138EC0E7ED0
+[     script:va_spawn] table: 00000138FAD72BD0
+[     script:va_spawn] table: 00000138F9F9CE30
+[     script:va_spawn] table: 00000138F9F9D0F0
+[     script:va_spawn] RESULT:	table: 00000138FA6402E0
+[     script:va_spawn] COORDS: 	table: 00000138FA63FCE0
+[     script:va_spawn] RESULT:	table: 00000138FAE5F720
+[     script:va_spawn] COORDS: 	[{"coords":"{\"x\":-229.26593017578126,\"z\":207.5509033203125,\"y\":708.6197509765625}"}]
+[     script:va_spawn] RESULT:	table: 00000138820BEA60
+[     script:va_spawn] COORDS: 	null
+[     script:va_spawn] RESULT:	table: 00000138FA96D5E0
+[     script:va_spawn] COORDS: 	"{\"x\":-229.26593017578126,\"z\":207.5509033203125,\"y\":708.6197509765625}"
+[     script:va_spawn] RESULT:	table: 00000138FA5470D0
+[     script:va_spawn] COORDS: 	null
+[     script:va_spawn] RESULT:	table: 00000138820EA780
+[     script:va_spawn] COORDS: 	table: 00000138820E9EC0	70
+[     script:va_spawn] RESULT:	table: 00000138FAD7A3F0
+[     script:va_spawn] COORDS: 	nil	0	The document is empty. (0)
+[     script:va_spawn] RESULT:	table: 00000138F9F58730
+[     script:va_spawn] COORDS: 	-229.26593017578
+[     script:va_spawn] RESULT:	table: 00000138ECA15B80
+[     script:va_spawn] COORDS: 	nil
+[     script:va_spawn] RESULT:	table: 00000138FAE59E20
+[     script:va_spawn] COORDS: 	number
+[     script:va_spawn] RESULT:	table: 00000138FACC7CC0
+[     script:va_spawn] COORDS: 	number
+[ citizen-server-impl] sync thread hitch warning: timer interval of 139 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[      script:hardcap] Connecting: Dator
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [1168] FXServer Starting - 2025-03-15 22:12:43         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[    resources:ox_lib] Warning: ox_lib does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 37 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[ citizen-server-impl] Couldn't find resource ox_lib.
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[    c-scripting-core] Creating script environments for va_greeting
+[           resources] Started resource va_greeting
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
+[ citizen-server-main] -> Quitting: host shutting down
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [13888] FXServer Starting - 2025-03-15 22:14:11        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 37 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for pun_idgun
+[           resources] Started resource pun_idgun
+[    c-scripting-core] Creating script environments for va_spawn
+[           resources] Started resource va_spawn
+[    c-scripting-core] Creating script environments for va_spawnCar
+[           resources] Started resource va_spawnCar
+[    c-scripting-core] Creating script environments for va_weapon
+[           resources] Started resource va_weapon
+[    c-scripting-core] Creating script environments for va_teleporter
+[           resources] Started resource va_teleporter
+[    c-scripting-core] Creating script environments for va_hoodcontrol
+[           resources] Started resource va_hoodcontrol
+[    c-scripting-core] Creating script environments for va_greeting
+[           resources] Started resource va_greeting
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://viktor0524-bzbqe8.users.cfx.re/
