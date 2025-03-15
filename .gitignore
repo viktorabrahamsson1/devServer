@@ -6,5 +6,6 @@ server-files/
 
 # Ignore server.cfg inside the scripts folder
 scripts/server.cfg
+scripts/server.cfg.bkp
 start_7290_default
 start_7290_default.bat
