@@ -1,11 +1,11 @@
 fx_version 'cerulean'
 game 'gta5'
 
+lua54 'yes'
 
-
-name "va_greeting"
-description "oxmysql test"
-author "viktor"
+name "va_setjob"
+description "setting the job of the player"
+author "va"
 version "1"
 
 shared_scripts {
@@ -17,6 +17,6 @@ client_scripts {
 }
 
 server_scripts {
-	'@oxmysql/lib/MySQL.lua',
-	'server/*.lua'
+	'server/*.lua',
+	'@oxmysql/lib/MySQL.lua'
 }
