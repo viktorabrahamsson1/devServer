@@ -1,3 +1,27 @@
+RegisterKeyMapping("+openAdminMenu", "a admin menu", "keyboard", "F5")
+
+RegisterCommand("+openAdminMenu", function()
+  local players = {}
+  players = GetPlayers()
+
+  SendNUIMessage(players)
+end, false)
+
+
+
+
+local getUptime = function()
+  Uptime = 0
+  CreateThread(function()
+    Uptime += 1
+    Wait(1000 * 60)
+    SendNuiMessage(json.encode(Uptime))
+  end)
+end
+
+getUptime()
+
+
 RegisterCommand("sv", function(source, args, rawCommand)
   local carModel = args[1]
 
